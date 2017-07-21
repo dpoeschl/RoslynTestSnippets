@@ -56,4 +56,20 @@ namespace CSharpTestSnippets
 
     // Type a "1" at the end of "RenameTrackingSample" on the next line, you'll see a dotted border around it
     class RenameTrackingSample { } // "Rename Tracking"
+
+    class DocCommentsSample
+    {
+        /// <summary> ("XML Doc Comments - Delimiter" for the "///", "XML Doc Comments - Name" for the "summary")
+        /// Text ("XML Doc Comments - Text")
+        /// <!--Comment--> ("XML Doc Comments - Comment")
+        /// <![CDATA[ Content ]]> ("XML Doc Comments - CData Section")
+        /// <tag Attribute = "Value"/>
+        /// ("XML Doc Comments - Attribute Name" for "Attribute")
+        /// ("XML Doc Comments - Attribute Quotes" for the quotation marks)
+        /// ("XML Doc Comments - Attribute Value" for "Value")
+        /// <tag><?test[=test]?></tag> ("XML Doc Comments - Processing Instruction")
+        /// <tag>&lt;</tag> ("XML Doc Comments - Entity Reference" for "&lt;")
+        /// </summary>
+        void M() { }
+    }
 }
