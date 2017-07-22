@@ -45,8 +45,8 @@ namespace CSharpTestSnippets
 
         void M()
         {
-            int abc = 8; // "Inline Rename Field Text" + "Inline Rename Field Background and Border"
-            this.abc = 8; // "Inline Rename Fixup"
+            int ab = 8; // "Inline Rename Field Text" + "Inline Rename Field Background and Border"
+            abc = 8; // "Inline Rename Fixup"
 
             {
                 int abc; // "Inline Rename Conflict
